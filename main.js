@@ -19,22 +19,22 @@ var board1 = document.createElement('div');
   document.getElementById('board1').appendChild(board1);
 // $("#changes").click(function(){
   if(roll == 1){
-  	 $("#diceImg").attr("src","../goal/one.png");
+  	 $("#diceImg").attr("src","one.png");
   }
    if (roll == 2){
-  	$("#diceImg").attr("src","../goal/two.png");
+  	$("#diceImg").attr("src","two.png");
   }
   else if (roll == 3){
-  	$("#diceImg").attr("src","../goal/three.png");
+  	$("#diceImg").attr("src","three.png");
   }
   else if (roll == 4){
-  	$("#diceImg").attr("src","../goal/four.png");
+  	$("#diceImg").attr("src","four.png");
   }
   else if (roll == 5){
-  	$("#diceImg").attr("src","../goal/five.png");
+  	$("#diceImg").attr("src","five.png");
   }
   else if (roll == 6){
-  	$("#diceImg").attr("src","../goal/six.png");
+  	$("#diceImg").attr("src","six.png");
   }
 
 // }
